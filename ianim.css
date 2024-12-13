@@ -1,0 +1,131 @@
+.placement {
+    display: flex;
+    justify-content: center;
+}
+body {
+    margin-top: 50px;
+    background-image: url("Capture.PNG");
+    background-size: cover;
+}
+#triangle {
+    clip-path: polygon(54% 0%, -3% 80%, 92% 75%);
+    width: 129px;
+    height: 173px;
+    background-color: #f00;
+    transform: rotate(234deg);
+    position: absolute;
+    top: 86px;
+    bottom: 186px;
+    left: 480px;
+}
+#triangle1 {
+    clip-path: polygon(42% 13%, -3% 78%, 80% 80%);
+    width: 169px;
+    height: 198px;
+    background-color: #0d00ff;
+    transform: rotate(421deg);
+    position: absolute;
+    top: 50px;
+    left: 406px;
+}
+#triangle2 {
+    clip-path: polygon(55% 0%, -3% 76%, 98% 84%);
+    width: 120px;
+    height: 170px;
+    background-color: #f00;
+    transform: rotate(119deg);
+    position: absolute;
+    top: 89px;
+    bottom: 211px;
+    left: 79px;
+}
+#triangle3 {
+    clip-path: polygon(42% 13%, -3% 78%, 80% 80%);
+    width: 170px;
+    height: 182px;
+    background-color: #0d00ff;
+    transform: rotate(535deg);
+    position: absolute;
+    top: 62px;
+    left: 111px;
+}
+#triangle4 {
+    clip-path: polygon(1% 65%, 59% 101%, 22% 28%);
+    width: 166px;
+    height: 179px;
+    background-color: #d9ff00;
+    transform: rotate(361deg);
+    position: absolute;
+    top: 43px;
+    left: 364px;
+}
+#triangle5 {
+    clip-path: polygon(62% 30%, 66% 100%, 21% 20%);
+    width: 162px;
+    height: 158px;
+    background-color: #d9ff00;
+    transform: rotate(417deg);
+    position: absolute;
+    top: 77px;
+    left: 192px;
+}
+#triangle6 {
+    clip-path: polygon(62% 31%, 68% 100%, 30% 32%);
+    width: 147px;
+    height: 141px;
+    background-color: #00ff92;
+    transform: rotate(515deg);
+    position: absolute;
+    top: 144px;
+    left: 349px;
+}
+#triangle7 {
+    clip-path: polygon(46% 72%, 18% 59%, 74% 3%);
+    width: 137px;
+    height: 135px;
+    background-color: #00ff92;
+    transform: rotate(728deg);
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+#triangle8 {
+    clip-path: polygon(61% 101%, 10% 11%, 87% -2%);
+    width: 137px;
+    height: 135px;
+    background-color: #0d0e0d;
+    transform: rotate(728deg);
+    position: absolute;
+    top: 82px;
+    left: 267px;
+}
+#triangle9 {
+    clip-path: polygon(26% 40%, 50% 56%, 81% 3%);
+    width: 150px;
+    height: 164px;
+    background-color: #00ff92;
+    transform: rotate(-1deg);
+    position: absolute;
+    top: 158px;
+    left: 184px;
+}
+#triangle10 {
+    clip-path: polygon(8% 38%, 31% 0, 86% 57%, 75% 81%);
+    width: 94px;
+    height: 173px;
+    background-color: #968f8f;
+    position: absolute;
+    top: 153px;
+    left: 335px;
+}
+
+#triangle11 {
+    clip-path: polygon(5% 38%, 33% 0, 86% 58%, 73% 86%);
+    width: 94px;
+    height: 173px;
+    background-color: #af3838;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 148px;
+    left: 250px;
+}
